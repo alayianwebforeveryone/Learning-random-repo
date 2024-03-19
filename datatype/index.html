@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Modal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-sm font-bold ">
+    <!-- <div id="container">
+        <ul class="list">
+            <li class="list">Home</li>
+            <li class="list">Product</li>
+            <li class="list">Login</li>
+            <li class="list">Login</li>
+            <li class="list">Login</li>
+            
+        </ul>
+    </div>
+    <div name = "child"></div>
+    <div></div>
+
+    <button  onclick= "changeColor()" class="text-[blue] text-lg  border  rounded-full border-[green] px-4 py-2">Click me and See magic</button> -->
+
+
+    <div class="py-4 px-4 flex justify-center m-auto my-20 w-[70%] bg-gray-200">
+        <div class="min-w-full">
+            <div class="overflow-x-scroll">
+                <table class="table-auto min-w-full divide-y divide-gray-200">
+                  <thead>
+                    <tr>
+                      <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                        Name
+                      </th>
+                      <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                        Email
+                      </th>
+                      <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                        Role
+                      </th>
+                      <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                        Name
+                      </th>
+                      <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                        Email
+                      </th>
+                      <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                        Role
+                      </th>
+                      <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                        Name
+                      </th>
+                      <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                        Email
+                      </th>
+                      <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                        Role
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody class="bg-white divide-y divide-gray-200">
+                    <tr>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        John Doe
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        john@example.com
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        Admin
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        John Doe
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        john@example.com
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        Admin
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        John Doe
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        john@example.com
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        Admin
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        Jane Smith
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        jane@example.com
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        User
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        John Doe
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        john@example.com
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        Admin
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        John Doe
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        john@example.com
+                      </td>
+                      <td class="px-6 py-4 whitespace-no-wrap">
+                        Admin
+                      </td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                  </tbody>
+                </table>
+
+            </div>
+            <div class="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+                     eligendi laboriosam architecto tempore voluptatum ipsam molestias 
+                     iste suscipit recusandae a fugit nulla quo exercitationem sunt quidem 
+                     eaque consequatur fuga quisquam magnam odit et voluptates nostrum possimus! 
+                     Vero, possimus? Numquam amet, ducimus ad vitae necessitatibus officia sint
+                      dicta molestiae sequi dolorem?</p>
+            </div>
+          </div>
+          
+    </div>
+
+    <script>
+         let list =document.getElementsByClassName("list");
+         console.log(list)
+         list[4].style.color = "red";
+
+         for(let i=0; i<list.length; i++)
+         {
+          
+            list[i].style.color= "red"
+         }
+       
+           function changeColor(){
+                 list[2].style.color= "green";
+                 
+         }
+
+       
+   
+
+    </script>
+</body>
+</html>
