@@ -10,6 +10,8 @@ let age = "alayian"
  age = String(40)
 
  let userName= "ali";
+ let value=567;
+ console.log(value);
 //  console.log( typeof userName)
  userName = Number("ali")
 //  console.log(typeof userName)
@@ -25,7 +27,7 @@ let age = "alayian"
 //  console.log(10+"30")
  
  
- 
+      
  let s ;
  s = undefined;
  let p = null;
