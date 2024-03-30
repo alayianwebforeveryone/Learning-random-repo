@@ -36,6 +36,7 @@ let age = "alayian"
  s = undefined;
  let p = null;
  let someBool = true;
+//  here is some commit
 //  primitive
 //  let symbolVar = Symbol("unique")
 //  console.log(typeof someBool ,someBool)
