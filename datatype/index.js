@@ -14,6 +14,10 @@ let age = "alayian"
  console.log(value);
 //  console.log( typeof userName)
  userName = Number("ali")
+ let task="1st "
+ console.log(task)
+ let tasks="1st "
+ console.log(tasks)
 //  console.log(typeof userName)
 
 //  console.log(20+"30")
