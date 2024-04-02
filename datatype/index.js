@@ -10,8 +10,14 @@ let age = "alayian"
  age = String(40)
 
  let userName= "ali";
+ let value=567;
+ console.log(value);
 //  console.log( typeof userName)
  userName = Number("ali")
+ let task="1st "
+ console.log(task)
+ let tasks="1st "
+ console.log(tasks)
 //  console.log(typeof userName)
 
 //  console.log(20+"30")
@@ -25,7 +31,7 @@ let age = "alayian"
 //  console.log(10+"30")
  
  
- 
+      
  let s ;
  s = undefined;
  let p = null;
